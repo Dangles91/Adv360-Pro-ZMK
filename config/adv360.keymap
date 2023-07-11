@@ -79,11 +79,11 @@
 
         layer_Brackets {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans         &trans            &trans          &trans           &trans             &trans          &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans         &trans            &trans   &macro_parens    &macro_braces             &trans          &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &macro_quotes  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &macro_dquotes
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                         &trans            &trans          &trans           &trans             &trans          &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                           &trans          &trans           &trans             &trans          &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans         &trans            &trans                &trans                 &trans             &trans          &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans         &trans            &trans         &macro_parens          &macro_braces             &trans          &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &macro_quotes  &kp LEFT_BRACKET        &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &macro_dquotes
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                         &trans            &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS             &trans          &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                           &trans                &trans                 &trans             &trans          &trans
             >;
         };
 
